@@ -21,30 +21,14 @@ The architecture consists of the following components:
 4.  ervices call each other using HTTP via logical service names.
 5. **Zipkin** collects tracing data for all inter-service communication.
 
----
 
-## 🚀 How to Run
 
 ### Prerequisites
 - Java 11+
 - Maven
 - Docker (optional, for Zipkin)
 
-### Steps
 
-
-## 🌐 Endpoints
-
-| Service | Port | Description |
-|--------|------|-------------|
-| Config Server | `8888` | Centralized config |
-| Eureka Registry | `8761` | Service discovery dashboard |
-| API Gateway | `8080` | Main entry point |
-| Department Service | `8081` | CRUD for departments |
-| Employee Service | `8082` | CRUD for employees |
-| Zipkin | `9411` | Tracing dashboard |
-
----
 
 
 ## 📚 Technologies Used
